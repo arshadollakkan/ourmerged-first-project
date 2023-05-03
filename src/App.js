@@ -1,12 +1,14 @@
-import Arsh from "./components/firstpage.jsx"
-import Dom from "./components/second"
+
 import './App.css';
 
+import Gol from "./components/fetch"
+import San from './components/third';
 function App() {
   return (
     <div className="App">
-     <Arsh/>
-     <Dom/>
+    <Gol/>
+    <San/>
+     
     </div>
   );
 }

@@ -1,3 +1,6 @@
+import Prob from './prob.jsx'
+import { useState } from 'react'
+
 const Second=()=>{
     let ogg=[{
         heading:"flower",
@@ -17,21 +20,18 @@ const Second=()=>{
         count:90,
         ro:"images/Eid.avif"
     }]
+    let[fo,setfo]=useState(0)
+    let gj=()=>{
+      setfo(fo+1)   
+    }
+
    
     return(
         <div className="second">
-            <h1>list details</h1>
-            {
-                ogg.map((data)=>(
-                    <div style={{backgroundColor:"red",margin:"6px auto",padding:"24px",width:"750px"}} className="lob">
-                        <h1>Title:- {data.heading}</h1>
-                        <p>Count: {data.count}</p>
-                        <img src={data.ro} alt="" />    
-                    </div>
-                )
+            <h1>main component</h1>
+            <Prob data={ogg} data2={fo} data3={gj}/>
 
-                )
-            }
+           
         </div>
     )
 }

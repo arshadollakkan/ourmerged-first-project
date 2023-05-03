@@ -1,0 +1,32 @@
+{
+    "name":[
+        {
+            "title":"jokl",
+            "amount":1,
+            "designation":"kolla",
+            "id":1
+            
+        },
+        {
+            "title":"poli",
+            "amount":5,
+            "designation":"opam",
+            "id":2
+            
+        },
+        {
+            "title":"jokl",
+            "amount":9,
+            "designation":"kopp",
+            "id":3
+            
+        },
+        {
+            "title":"jokl",
+            "amount":1,
+            "designation":"kolla",
+            "id":4
+            
+        }
+    ]
+}
