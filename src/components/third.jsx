@@ -8,7 +8,7 @@ const San = () => {
     return ( 
         <div className="po">
             <h1>{change}</h1>
-            <h2>{inc}</h2>
+            <h2>{inc            }</h2>
             <button onClick={()=>setchange('sugalle')}>change</button>
             <button onClick={()=>setinc(inc+1)}>incriment</button>
         </div>
